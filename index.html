@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PGS by Zorvextrader — Automated Trading Bot with Verified Results</title>
-<meta name="description" content="Rent the PGS trading bot by Zorvextrader. Fixed rules, verified track record, runs on your own MT5 account.">
+<title>PGS by Zorvextrader — Automated Trading Bot for MT5</title>
+<meta name="description" content="Rent the PGS trading bot by Zorvextrader. Fixed rules, runs on your own MT5 account.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Crect%20width='100'%20height='100'%20rx='22'%20fill='%232f7df6'/%3E%3Ctext%20x='50'%20y='70'%20font-size='58'%20text-anchor='middle'%20fill='white'%20font-family='Arial'%20font-weight='bold'%3EZ%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
@@ -43,7 +43,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(10,16,32,.9);backdrop-fi
 .btn.ghost:hover{border-color:var(--acc);color:var(--acc2)}
 .btn.small{padding:8px 14px;font-size:13px;border-radius:10px}
 .btn.big{padding:16px 26px;font-size:16px}
-.btn.wa{background:#25D366;color:#fff}
+.btn.dc{background:#5865F2;color:#fff}
 .hero{padding:90px 0 60px;text-align:center;background:radial-gradient(700px 340px at 50% 0%,var(--accsoft),transparent)}
 .pill{display:inline-block;border:1px solid rgba(94,160,255,.45);background:var(--accsoft);color:var(--acc2);font-size:13px;font-weight:600;padding:6px 14px;border-radius:999px}
 .hero h1{font-size:clamp(30px,5vw,50px);line-height:1.15;margin:20px auto 14px;max-width:900px;font-weight:800}
@@ -132,8 +132,8 @@ details p{padding:0 18px 16px;color:var(--mut)}
 footer{border-top:1px solid var(--line);padding:44px 0 30px}
 .disc{color:var(--mut);font-size:13px;max-width:900px}
 .fbot{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:22px;color:var(--mut);font-size:13px}
-.wa-float{position:fixed;bottom:20px;inset-inline-end:20px;width:54px;height:54px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;color:#fff;box-shadow:0 8px 24px rgba(37,211,102,.4);z-index:60}
-.wa-float svg{width:28px;height:28px}
+.dc-float{position:fixed;bottom:20px;inset-inline-end:20px;width:54px;height:54px;border-radius:50%;background:#5865F2;display:flex;align-items:center;justify-content:center;color:#fff;font-size:26px;text-decoration:none;box-shadow:0 8px 24px rgba(88,101,242,.4);z-index:60}
+
 #checkout{display:none}
 .co-box{max-width:520px;margin:0 auto}
 .co-sum{display:flex;justify-content:space-between;align-items:center;background:var(--card2);border:1px solid var(--acc);border-radius:12px;padding:14px 18px;margin-bottom:18px}
@@ -151,8 +151,8 @@ footer{border-top:1px solid var(--line);padding:44px 0 30px}
     <a class="logo" href="#top">Zorvex<span>trader</span></a>
     <nav id="navLinks">
       <a href="#about" data-i18n="nav.about">About</a>
-      <a href="#results" data-i18n="nav.results">Results</a>
-      <a href="#proofs" data-i18n="nav.proofs">Proofs</a>
+      
+      
       <a href="#bot" data-i18n="nav.bot">The Bot</a>
       <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
       <a href="#faq" data-i18n="nav.faq">FAQ</a>
@@ -173,19 +173,19 @@ footer{border-top:1px solid var(--line);padding:44px 0 30px}
 <main>
 <section class="hero" style="border-top:0">
   <div class="container">
-    <span class="pill" data-i18n="hero.badge">Verified on Myfxbook · Free demo available</span>
+    <span class="pill" data-i18n="hero.badge">Free demo available · Runs on your own account</span>
     <h1 data-i18n="hero.h1">PGS — a trading bot with fixed rules, running on your own account</h1>
-    <p class="lead" data-i18n="hero.p">Rent it monthly and run it on MetaTrader at your own broker. Your funds never leave your account and you stay in full control. Check every trade on an independent, verified track record — before you pay anything.</p>
+    <p class="lead" data-i18n="hero.p">Rent it monthly and run it on MetaTrader at your own broker. Your funds never leave your account and you stay in full control. Test it free on a demo account and ask us anything — before you pay.</p>
     <div class="cta-row">
-      <a class="btn" href="#results" data-i18n="hero.cta1">See verified results</a>
+      <a class="btn" href="#bot" data-i18n="hero.cta1">See how it works</a>
       <a class="btn ghost" href="#contact" data-i18n="hero.cta2">Try it free on demo</a>
     </div>
     <p class="muted small" style="margin-top:16px" data-i18n="hero.note">Ask before you subscribe · No card needed to talk to us</p>
     <ul class="trust">
-      <li data-i18n="hero.t1">Verified public track record</li>
+      <li data-i18n="hero.t1">Fixed rules, no discretion</li>
       <li data-i18n="hero.t2">No withdrawal access to your funds</li>
       <li data-i18n="hero.t3">Cancel before renewal, anytime</li>
-      <li data-i18n="hero.t4">Direct support on WhatsApp</li>
+      <li data-i18n="hero.t4">Direct support on Discord</li>
     </ul>
   </div>
 </section>
@@ -193,9 +193,9 @@ footer{border-top:1px solid var(--line);padding:44px 0 30px}
 <section style="border-top:0;padding-top:20px">
   <div class="container">
     <p class="kicker" data-i18n="steps.k">How it works</p>
-    <h2 data-i18n="steps.h">Three steps — verify first, pay later</h2>
+    <h2 data-i18n="steps.h">Three steps — learn and test first, pay later</h2>
     <div class="grid3" style="margin-top:24px">
-      <div class="card"><h3 data-i18n="steps.s1t">1 · Verify</h3><p class="muted" style="margin-top:8px" data-i18n="steps.s1p">Review the full performance on Myfxbook, including the losing months.</p></div>
+      <div class="card"><h3 data-i18n="steps.s1t">1 · Learn</h3><p class="muted" style="margin-top:8px" data-i18n="steps.s1p">Read what PGS does and what it doesn't, and ask us anything.</p></div>
       <div class="card"><h3 data-i18n="steps.s2t">2 · Test</h3><p class="muted" style="margin-top:8px" data-i18n="steps.s2p">Run PGS free on a demo account, with our help for the setup.</p></div>
       <div class="card"><h3 data-i18n="steps.s3t">3 · Subscribe</h3><p class="muted" style="margin-top:8px" data-i18n="steps.s3p">Pick a plan only when you're convinced. Cancel before any renewal date.</p></div>
     </div>
@@ -211,7 +211,7 @@ footer{border-top:1px solid var(--line);padding:44px 0 30px}
   </div>
 </section>
 
-<section id="results">
+<section id="results" hidden>
   <div class="container">
     <p class="kicker" data-i18n="res.k">Results</p>
     <h2 data-i18n="res.h">Verified account performance</h2>
@@ -224,7 +224,7 @@ footer{border-top:1px solid var(--line);padding:44px 0 30px}
       <div class="kpi"><b id="kpiS">8 mo</b><span data-i18n="kpi.s">Track record</span></div>
     </div>
     <div class="tabs">
-      <button class="tab active" id="tab1" data-i18n="res.tab1">Growth (cumulative)</button>
+      <button class="tab active" id="tab1" data-i18n="res.tab1">Monthly returns</button>
       <button class="tab" id="tab2" data-i18n="res.tab2">Monthly table</button>
     </div>
     <div id="chartView">
@@ -270,7 +270,7 @@ footer{border-top:1px solid var(--line);padding:44px 0 30px}
   </div>
 </section>
 
-<section id="proofs">
+<section id="proofs" hidden>
   <div class="container">
     <p class="kicker" data-i18n="proof.k">Proofs</p>
     <h2 data-i18n="proof.h">Screenshots &amp; withdrawal proofs</h2>
@@ -292,7 +292,7 @@ footer{border-top:1px solid var(--line);padding:44px 0 30px}
   </div>
 </section>
 
-<section id="testimonials">
+<section id="testimonials" hidden>
   <div class="container">
     <p class="kicker" data-i18n="tst.k">Testimonials</p>
     <h2 data-i18n="tst.h">What subscribers say</h2>
@@ -404,9 +404,9 @@ footer{border-top:1px solid var(--line);padding:44px 0 30px}
     <div class="payh">
       <h3 data-i18n="pr.payh">Payment methods</h3>
       <div class="payrow">
-        <span class="pay">🅿️ <span data-i18n="pr.pay1">PayPal</span></span>
-        <span class="pay">💳 <span data-i18n="pr.pay2">Visa via RodotPay</span></span>
-        <span class="pay">₿ <span data-i18n="pr.pay3">Crypto via Binance Pay — all coins &amp; networks</span></span>
+        <span class="pay" hidden>🅿️ <span data-i18n="pr.pay1">PayPal</span></span>
+        <span class="pay" hidden>💳 <span data-i18n="pr.pay2">Visa via RodotPay</span></span>
+        <span class="pay">₿ <span data-i18n="pr.pay3">USDT via Binance Pay</span></span>
       </div>
       <ul class="nots">
         <li data-i18n="pr.n1">Secure checkout with external providers</li>
@@ -446,19 +446,16 @@ footer{border-top:1px solid var(--line);padding:44px 0 30px}
     <div id="coPayWrap" style="display:none">
       <div class="card" style="text-align:center">
         <p class="ok-big">📝</p>
-        <h3 data-i18n="co.p1h">Order received!</h3>
-        <p class="muted small" data-i18n="co.p1p">Your details were sent to us. Now complete the payment below — the license key is delivered after payment confirmation.</p>
+        <h3 data-i18n="co.p1h">Almost there!</h3>
+        <p class="muted small" data-i18n="co.p1p">Now complete the payment below, then send us your order details on Discord — the license key is delivered after payment confirmation.</p>
         <div class="co-sum" style="margin-top:16px">
           <span><span class="muted small" data-i18n="co.amount">Amount to pay</span><br><b id="coPayAmount">$160 USDT</b></span>
           <span class="muted small">Binance Pay</span>
         </div>
         <a id="coBinanceBtn" class="btn big" style="width:100%;background:#F0B90B;color:#1c1c1c;margin-top:6px" href="#" target="_blank" rel="noopener">₿ <span data-i18n="co.paybtn">Open Binance Pay &amp; pay</span></a>
-        <p class="muted small" style="margin-top:16px" data-i18n="co.afterpay">Paid? Send us the confirmation — we verify and send your license key.</p>
-        <a id="coWaBtn" class="btn wa big" style="width:100%;margin-top:8px" href="#" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="currentColor" style="width:20px;height:20px"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4 0-.5.1-.7l.5-.6c.1-.2.1-.3 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.9.9-1.1 2.1-.2 3.7a12 12 0 0 0 4.6 4.3c1.8.9 2.6 1 3.5.8.6-.1 1.4-.6 1.6-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.5-.3z"/></svg>
-          <span data-i18n="co.waconfirm">Send payment confirmation</span>
-        </a>
-        <p class="muted small" style="margin-top:12px" data-i18n="co.step3t">Step 3: after verification you receive your license key on WhatsApp / email.</p>
+        <p class="muted small" style="margin-top:16px" data-i18n="co.afterpay">Paid? Copy your order details, then send them to us on Discord — we verify and send your license key.</p>
+        <button type="button" id="coCopyBtn" class="btn dc big" style="width:100%;margin-top:8px">💬 <span data-i18n="co.waconfirm">Copy order details &amp; open Discord</span></button>
+        <p class="muted small" style="margin-top:12px" data-i18n="co.step3t">Step 3: after verification you receive your license key on Discord / email.</p>
       </div>
     </div>
   </div>
@@ -468,11 +465,11 @@ footer{border-top:1px solid var(--line);padding:44px 0 30px}
   <div class="container">
     <p class="kicker" data-i18n="set.k">Setup service</p>
     <h2 data-i18n="set.h">Want us to install PGS for you?</h2>
-    <p class="sub" style="margin-top:8px" data-i18n="set.p">Fill in the form — we'll prepare a ready-to-send request for WhatsApp or email, and book your free setup session.</p>
+    <p class="sub" style="margin-top:8px" data-i18n="set.p">Fill in the form — we copy a ready-made request and open Discord so you can paste it to us and book your free setup session.</p>
     <form class="form" id="setupForm">
       <label for="fName" data-i18n="set.f1">Full name *</label>
       <input id="fName" required data-i18n-ph="set.ph1" placeholder="Your name">
-      <label for="fContact" data-i18n="set.f2">WhatsApp or email *</label>
+      <label for="fContact" data-i18n="set.f2">Discord username or email *</label>
       <input id="fContact" required data-i18n-ph="set.ph2" placeholder="@username or you@mail.com">
       <label for="fExp" data-i18n="set.f3">Trading experience *</label>
       <select id="fExp">
@@ -495,7 +492,7 @@ footer{border-top:1px solid var(--line);padding:44px 0 30px}
       <details><summary><span data-i18n="faq.q1">Does PGS guarantee profit?</span></summary><p data-i18n="faq.a1">No — and nobody honestly can. PGS follows fixed rules with controlled risk, but losses are part of trading. That's exactly why the full track record, worst months included, is public.</p></details>
       <details><summary><span data-i18n="faq.q2">Do you ever touch my money?</span></summary><p data-i18n="faq.a2">Never. The bot runs inside your MetaTrader account at your broker. We don't take deposits, we don't hold funds, and we have no withdrawal access.</p></details>
       <details><summary><span data-i18n="faq.q3">Why rent instead of buying a lifetime license?</span></summary><p data-i18n="faq.a3">A rental keeps us accountable: your fee includes updates, monitoring and support. If the system stops performing, you simply don't renew.</p></details>
-      <details><summary><span data-i18n="faq.q4">Will it work with my broker?</span></summary><p data-i18n="faq.a4">PGS works with any MT5 broker that allows hedging and Expert Advisors. Send us your broker's name on WhatsApp and we confirm before you pay.</p></details>
+      <details><summary><span data-i18n="faq.q4">Will it work with my broker?</span></summary><p data-i18n="faq.a4">PGS works with any MT5 broker that allows hedging and Expert Advisors. Send us your broker's name on Discord and we confirm before you pay.</p></details>
       <details><summary><span data-i18n="faq.q5">Do I need to keep my computer on?</span></summary><p data-i18n="faq.a5">MetaTrader must run 24/5. Most subscribers use a cheap VPS (about $5–10/month) — we can recommend one and set it up with you.</p></details>
       <details><summary><span data-i18n="faq.q6">Does it use martingale?</span></summary><p data-i18n="faq.a6">No. No martingale, no grid without stop-loss. Every position opens with a fixed 1% risk and a defined stop-loss.</p></details>
       <details><summary><span data-i18n="faq.q7">What is the minimum balance?</span></summary><p data-i18n="faq.a7">We recommend at least $500. Smaller balances can't absorb normal drawdowns safely.</p></details>
@@ -511,10 +508,7 @@ footer{border-top:1px solid var(--line);padding:44px 0 30px}
     <h2 data-i18n="ct.h">We answer personally</h2>
     <p class="sub" style="margin-top:8px" data-i18n="ct.p">Real questions get real answers — usually within a few hours.</p>
     <div class="ctrow">
-      <a id="waLink" class="btn big wa" target="_blank" rel="noopener" href="#">
-        <svg viewBox="0 0 24 24" fill="currentColor" style="width:20px;height:20px"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4 0-.5.1-.7l.5-.6c.1-.2.1-.3 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.9.9-1.1 2.1-.2 3.7a12 12 0 0 0 4.6 4.3c1.8.9 2.6 1 3.5.8.6-.1 1.4-.6 1.6-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.5-.3z"/></svg>
-        <span data-i18n="ct.wa">Chat on WhatsApp</span>
-      </a>
+      <a id="dcLink" class="btn big dc" target="_blank" rel="noopener" href="#">💬 <span data-i18n="ct.wa">Join our Discord</span></a>
       <a id="emLink" class="btn ghost big" href="#">
         ✉️ <span data-i18n="ct.em">Send an email</span>
       </a>
@@ -528,25 +522,21 @@ footer{border-top:1px solid var(--line);padding:44px 0 30px}
   <div class="container">
     <p class="disc" data-i18n="ft.disc">Risk warning: Trading forex, metals and CFDs involves a high level of risk and can result in the loss of all your capital. Past performance is not indicative of future results. Content on this site is for information only and is not investment advice. We do not guarantee any profit.</p>
     <div class="fbot">
-      <span data-i18n="ft.rights">© 2025 Zorvextrader — All rights reserved.</span>
+      <span data-i18n="ft.rights">© 2026 Zorvextrader — All rights reserved.</span>
       <a href="#top" data-i18n="ft.top">Back to top ↑</a>
     </div>
   </div>
 </footer>
 
-<a class="wa-float" id="waFloat" target="_blank" rel="noopener" aria-label="WhatsApp" href="#">
-  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4 0-.5.1-.7l.5-.6c.1-.2.1-.3 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.9.9-1.1 2.1-.2 3.7a12 12 0 0 0 4.6 4.3c1.8.9 2.6 1 3.5.8.6-.1 1.4-.6 1.6-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.5-.3z"/></svg>
-</a>
+<a class="dc-float" id="dcFloat" target="_blank" rel="noopener" aria-label="Discord" href="#">💬</a>
 
 <script>
 /* ============================================================
    ✏️ EDIT ONLY THIS BLOCK — your real data
    ============================================================ */
 const CONFIG = {
-  wa: '000000000000',
-  email: 'YOURNAME@gmail.com',
-  myfxbook: '#',
-  mql5: '#',
+  discord: 'https://discord.gg/z346EysHf',
+  email: '',
   kpi: { dd: '-8.7%', wr: '68%' },
   monthly: [
     {m:1, r: 6.2,  d: 2.8},
@@ -559,11 +549,11 @@ const CONFIG = {
     {m:8, r: 9.6,  d: 3.0}
   ],
   binanceLinks: {
-    p1:  '#',
-    p2:  '#',
-    p3:  '#',
-    p6:  '#',
-    p12: '#'
+    p1: 'https://app.binance.com/uni-qr/request-to-pay?billOrderId=460102456475262976&billType=request_a_payment',
+    p2: 'https://app.binance.com/uni-qr/request-to-pay?billOrderId=460128348349931520&billType=request_a_payment',
+    p3: 'https://app.binance.com/uni-qr/request-to-pay?billOrderId=460128470933069824&billType=request_a_payment',
+    p6: 'https://app.binance.com/uni-qr/request-to-pay?billOrderId=460128556875833344&billType=request_a_payment',
+    p12: 'https://app.binance.com/uni-qr/request-to-pay?billOrderId=460128634311712768&billType=request_a_payment'
   }
 };
 /* ============================================================ */
@@ -585,16 +575,16 @@ const EN_TITLE = document.title;
 
 const I18N = {
 ar: {
-  title:"PGS من Zorvextrader — بوت تداول آلي بنتائج موثّقة",
+  title:"PGS من Zorvextrader — بوت تداول آلي لحساب MT5 الخاص بك",
   "nav.about":"من نحن","nav.results":"النتائج","nav.proofs":"الإثباتات","nav.bot":"البوت","nav.pricing":"الأسعار","nav.faq":"الأسئلة","nav.contact":"تواصل","nav.cta":"استأجر PGS",
-  "hero.badge":"موثّق على Myfxbook · تجربة مجانية على الديمو",
+  "hero.badge":"تجربة مجانية على الديمو · يعمل على حسابك الخاص",
   "hero.h1":"PGS — بوت تداول بقواعد ثابتة، يعمل على حسابك الخاص",
-  "hero.p":"استأجره شهريًا وشغّله على MetaTrader لدى وسيطك أنت. أموالك لا تغادر حسابك أبدًا وتبقى السيادة الكاملة بيدك. راجع كل صفقة في سجل موثّق ومستقل — قبل أن تدفع أي شيء.",
-  "hero.cta1":"شاهد النتائج الموثّقة","hero.cta2":"جرّبه مجانًا على الديمو",
+  "hero.p":"استأجره شهريًا وشغّله على MetaTrader لدى وسيطك أنت. أموالك لا تغادر حسابك أبدًا وتبقى السيادة الكاملة بيدك. جرّبه مجانًا على حساب تجريبي واسألنا عن أي شيء — قبل أن تدفع.",
+  "hero.cta1":"شاهد كيف يعمل","hero.cta2":"جرّبه مجانًا على الديمو",
   "hero.note":"اسأل قبل الاشتراك · لا حاجة لبطاقة للتحدث معنا",
-  "hero.t1":"سجل أداء عام وموثّق","hero.t2":"لا صلاحية سحب على أموالك","hero.t3":"إلغاء قبل التجديد في أي وقت","hero.t4":"دعم مباشر على واتساب",
-  "steps.k":"كيف يعمل؟","steps.h":"ثلاث خطوات — تحقّق أولًا، وادفع لاحقًا",
-  "steps.s1t":"1 · تحقّق","steps.s1p":"راجع الأداء الكامل على Myfxbook، بما في ذلك أشهر الخسارة.",
+  "hero.t1":"قواعد ثابتة بلا تدخل بشري","hero.t2":"لا صلاحية سحب على أموالك","hero.t3":"إلغاء قبل التجديد في أي وقت","hero.t4":"دعم مباشر على ديسكورد",
+  "steps.k":"كيف يعمل؟","steps.h":"ثلاث خطوات — تعرّف وجرّب أولًا، وادفع لاحقًا",
+  "steps.s1t":"1 · تعرّف","steps.s1p":"اقرأ ما يفعله PGS وما لا يفعله، واسألنا عن أي شيء.",
   "steps.s2t":"2 · جرّب","steps.s2p":"شغّل PGS مجانًا على حساب تجريبي، بمساعدتنا في التركيب.",
   "steps.s3t":"3 · اشترك","steps.s3p":"اختر الخطة فقط عندما تقتنع. يمكنك الإلغاء قبل أي تاريخ تجديد.",
   "about.k":"من نحن","about.h":"من يقف خلف Zorvextrader",
@@ -602,7 +592,7 @@ ar: {
   "about.p2":"كل قاعدة في PGS ثابتة ومختبرة. أنشر السجل الكامل — وأشهر الخسارة ضمنه — لأن الثقة تُبنى على الشفافية لا على الوعود.",
   "res.k":"النتائج","res.h":"أداء الحساب الموثّق","res.sample":"بيانات أمثلة — استبدلها قبل النشر",
   "res.sub":"الأرقام أدناه أمثلة. اربط هذا القسم بحساب Myfxbook الحيّ قبل الإطلاق.",
-  "res.tab1":"نمو الحساب (التراكمي)","res.tab2":"الجدول الشهري",
+  "res.tab1":"العوائد الشهرية","res.tab2":"الجدول الشهري",
   "th.m":"الشهر","th.r":"العائد","th.b":"الرصيد (بداية 10,000$)","th.d":"أقصى تراجع",
   "res.disc":"الأداء السابق لا يضمن نتائج مستقبلية.","res.upd":"آخر تحديث: [أضف التاريخ]",
   "res.l1":"حساب Myfxbook الموثّق","res.l2":"صفحة MQL5",
@@ -642,22 +632,22 @@ ar: {
   "pr.p1":"شهر واحد","pr.p2":"شهرين","pr.p3":"3 أشهر","pr.p6":"6 أشهر","pr.p12":"12 شهرًا",
   "pr.s2":"وفّر 20$","pr.s3":"وفّر 60$","pr.s6":"وفّر 100$","pr.s12":"وفّر 270$",
   "pr.payh":"طرق الدفع",
-  "pr.pay1":"بايبل PayPal","pr.pay2":"فيزا عبر RodotPay","pr.pay3":"كريبتو عبر Binance Pay — كل العملات والشبكات",
+  "pr.pay1":"بايبل PayPal","pr.pay2":"فيزا عبر RodotPay","pr.pay3":"USDT عبر Binance Pay",
   "pr.n1":"دفع آمن عبر مزوّدين خارجيين","pr.n2":"بدون رسوم مخفية","pr.n3":"إلغاء قبل تاريخ التجديد",
   "co.k":"إتمام الاشتراك","co.h":"أكمل اشتراكك",
   "co.step1":"1 · بياناتك","co.step2":"2 · الدفع","co.step3":"3 · التفعيل",
   "co.selected":"الخطة المختارة","co.f1":"الاسم الكامل *","co.f2":"البريد الإلكتروني *","co.f3":"رقم حساب MT5 *",
   "co.note":"مفتاح الترخيص سيُربط بهذا الحساب — تأكد من صحة الرقم.",
   "co.next":"التالي → الدفع عبر بايننس",
-  "co.p1h":"تم استلام طلبك!",
-  "co.p1p":"وصلتنا بياناتك. أكمل الدفع الآن — يُسلّم مفتاح الترخيص بعد تأكيد الدفع.",
+  "co.p1h":"أوشكت على الانتهاء!",
+  "co.p1p":"أكمل الدفع الآن ثم أرسل لنا تفاصيل طلبك على ديسكورد — يُسلَّم مفتاح الترخيص بعد تأكيد الدفع.",
   "co.amount":"المبلغ المطلوب","co.paybtn":"افتح Binance Pay وادفع",
-  "co.afterpay":"دفعت؟ أرسل لنا تأكيد الدفع — نتحقق ونرسل لك مفتاح التفعيل.",
-  "co.waconfirm":"أرسل تأكيد الدفع على واتساب",
-  "co.step3t":"الخطوة 3: بعد التحقق يصلك مفتاح الترخيص على واتساب / البريد.",
+  "co.afterpay":"دفعت؟ انسخ تفاصيل طلبك ثم أرسلها لنا على ديسكورد — نتحقق ونرسل لك مفتاح التفعيل.",
+  "co.waconfirm":"انسخ تفاصيل الطلب وافتح ديسكورد",
+  "co.step3t":"الخطوة 3: بعد التحقق يصلك مفتاح الترخيص على ديسكورد / البريد.",
   "set.k":"خدمة التركيب","set.h":"تريدنا أن نركّب لك PGS؟",
-  "set.p":"املأ النموذج وسنجهّز لك طلبًا جاهزًا ترسله لنا على واتساب أو البريد، ونحجز لك جلسة التركيب المجانية.",
-  "set.f1":"الاسم الكامل *","set.f2":"واتساب أو البريد *","set.f3":"خبرة التداول *",
+  "set.p":"املأ النموذج — ننسخ لك طلبًا جاهزًا ونفتح ديسكورد لتلصقه لنا وتحجز جلسة التركيب المجانية.",
+  "set.f1":"الاسم الكامل *","set.f2":"اسم مستخدم ديسكورد أو البريد *","set.f3":"خبرة التداول *",
   "set.ph1":"اسمك","set.ph2":"@username أو you@mail.com",
   "set.exp1":"أقل من سنة","set.exp2":"1–3 سنوات","set.exp3":"3–5 سنوات","set.exp4":"أكثر من 5 سنوات",
   "set.btn":"أرسل طلبي",
@@ -666,28 +656,28 @@ ar: {
   "faq.q1":"هل يضمن PGS الربح؟","faq.a1":"لا — ولا يستطيع أحد بصدق أن يضمنه. PGS يتبع قواعد ثابتة بمخاطرة مضبوطة، لكن الخسائر جزء من التداول. ولهذا بالضبط السجل الكامل — بأسوأ أشهره — متاح للعامة.",
   "faq.q2":"هل تلامسون أموالي؟","faq.a2":"أبدًا. البوت يعمل داخل حساب MetaTrader لديك لدى وسيطك. لا نستقبل إيداعات ولا نحتفظ بأموال ولا نملك صلاحية سحب.",
   "faq.q3":"لماذا الإيجار بدل شراء ترخيص دائم؟","faq.a3":"الإيجار يجعلنا مسؤولين: رسومك تشمل التحديثات والمراقبة والدعم. وإذا توقف النظام عن الأداء فلن تجدد ببساطة.",
-  "faq.q4":"هل يعمل مع وسيطي؟","faq.a4":"يعمل PGS مع أي وسيط MT5 يسمح بالتحوط (Hedging) وبالخبراء الآليين. أرسل لنا اسم وسيطك على واتساب ونؤكد لك قبل الدفع.",
+  "faq.q4":"هل يعمل مع وسيطي؟","faq.a4":"يعمل PGS مع أي وسيط MT5 يسمح بالتحوط (Hedging) وبالخبراء الآليين. أرسل لنا اسم وسيطك على ديسكورد ونؤكد لك قبل الدفع.",
   "faq.q5":"هل أحتاج إبقاء جهازي يعمل؟","faq.a5":"يجب أن يبقى MetaTrader شغالًا 24/5. معظم المشتركين يستخدمون VPS رخيصًا (نحو 5–10$ شهريًا) — يمكننا ترشيح واحد وإعداده معك.",
   "faq.q6":"هل يستخدم المارتينجيل؟","faq.a6":"لا. لا مارتينجيل ولا شبكات بدون وقف خسارة. كل مركز يُفتح بمخاطرة ثابتة 1% ووقف خسارة محدد.",
   "faq.q7":"ما الحد الأدنى للرصيد؟","faq.a7":"ننصح بـ500$ على الأقل. الأرصدة الأصغر لا تستطيع استيعاب التراجعات الطبيعية بأمان.",
   "faq.q8":"كيف تتم عملية التركيب؟","faq.a8":"بعد الدفع تستلم ملف PGS مع دليل خطوة بخطوة — أو احجز جلسة التركيب المجانية ونركّبه معك عن بُعد.",
   "faq.q9":"هل يمكنني الإلغاء؟","faq.a9":"نعم. ألغِ في أي وقت قبل تاريخ تجديدك — بدون أي أسئلة.",
   "ct.k":"تواصل","ct.h":"نردّ عليك بأنفسنا","ct.p":"الأسئلة الحقيقية تجاوبها أجوبة حقيقية — عادةً خلال ساعات.",
-  "ct.wa":"تحدث على واتساب","ct.em":"أرسل بريدًا","ct.rt":"متوسط زمن الرد: أقل من 6 ساعات.",
+  "ct.wa":"انضم إلى ديسكورد","ct.em":"أرسل بريدًا","ct.rt":"متوسط زمن الرد: أقل من 6 ساعات.",
   "ft.disc":"تنبيه المخاطر: التداول في العملات والمعادن والعقود مقابل الفروقات (CFDs) ينطوي على مخاطر عالية وقد يؤدي إلى خسارة رأس مالك بالكامل. الأداء السابق لا يدل على النتائج المستقبلية. محتوى هذا الموقع لغرض المعلومات فقط وليس نصيحة استثمارية، ولا نضمن أي ربح.",
-  "ft.rights":"© 2025 Zorvextrader — جميع الحقوق محفوظة.","ft.top":"العودة للأعلى ↑"
+  "ft.rights":"© 2026 Zorvextrader — جميع الحقوق محفوظة.","ft.top":"العودة للأعلى ↑"
 },
 fr: {
-  title:"PGS par Zorvextrader — Bot de trading à résultats vérifiés",
+  title:"PGS par Zorvextrader — Bot de trading pour votre compte MT5",
   "nav.about":"À propos","nav.results":"Résultats","nav.proofs":"Preuves","nav.bot":"Le Bot","nav.pricing":"Tarifs","nav.faq":"FAQ","nav.contact":"Contact","nav.cta":"Louer PGS",
-  "hero.badge":"Vérifié sur Myfxbook · Démo gratuite disponible",
+  "hero.badge":"Démo gratuite disponible · Tourne sur votre propre compte",
   "hero.h1":"PGS — un bot de trading à règles fixes, qui tourne sur votre propre compte",
-  "hero.p":"Louez-le au mois et exécutez-le sur MetaTrader chez votre propre broker. Vos fonds ne quittent jamais votre compte et vous gardez le contrôle total. Consultez chaque trade sur un historique vérifié et indépendant — avant de payer quoi que ce soit.",
-  "hero.cta1":"Voir les résultats vérifiés","hero.cta2":"Essai gratuit en démo",
+  "hero.p":"Louez-le au mois et exécutez-le sur MetaTrader chez votre propre broker. Vos fonds ne quittent jamais votre compte et vous gardez le contrôle total. Testez-le gratuitement sur un compte démo et posez-nous toutes vos questions — avant de payer.",
+  "hero.cta1":"Voir comment ça marche","hero.cta2":"Essai gratuit en démo",
   "hero.note":"Posez vos questions avant de vous abonner · Aucune carte requise pour discuter",
-  "hero.t1":"Historique public et vérifié","hero.t2":"Aucun accès aux retraits de vos fonds","hero.t3":"Résiliable avant renouvellement, à tout moment","hero.t4":"Support direct sur WhatsApp",
-  "steps.k":"Comment ça marche","steps.h":"Trois étapes — vérifier d'abord, payer ensuite",
-  "steps.s1t":"1 · Vérifiez","steps.s1p":"Consultez la performance complète sur Myfxbook, mois perdants inclus.",
+  "hero.t1":"Règles fixes, zéro discrétion","hero.t2":"Aucun accès aux retraits de vos fonds","hero.t3":"Résiliable avant renouvellement, à tout moment","hero.t4":"Support direct sur Discord",
+  "steps.k":"Comment ça marche","steps.h":"Trois étapes — comprendre et tester d'abord, payer ensuite",
+  "steps.s1t":"1 · Comprenez","steps.s1p":"Lisez ce que PGS fait et ne fait pas, et posez-nous toutes vos questions.",
   "steps.s2t":"2 · Testez","steps.s2p":"Faites tourner PGS gratuitement sur un compte démo, installation accompagnée.",
   "steps.s3t":"3 · Abonnez-vous","steps.s3p":"Choisissez un plan seulement quand vous êtes convaincu. Résiliez avant toute date de renouvellement.",
   "about.k":"À propos","about.h":"Qui est derrière Zorvextrader",
@@ -695,7 +685,7 @@ fr: {
   "about.p2":"Chaque règle de PGS est fixe et testée. Je publie l'historique complet — mois perdants compris — car la confiance se construit sur la transparence, pas sur les promesses.",
   "res.k":"Résultats","res.h":"Performance vérifiée du compte","res.sample":"Données d'exemple — à remplacer avant publication",
   "res.sub":"Les chiffres ci-dessous sont des exemples. Connectez cette section au compte Myfxbook en direct avant le lancement.",
-  "res.tab1":"Croissance (cumulée)","res.tab2":"Tableau mensuel",
+  "res.tab1":"Rendements mensuels","res.tab2":"Tableau mensuel",
   "th.m":"Mois","th.r":"Rendement","th.b":"Solde (départ 10 000 $)","th.d":"Drawdown max",
   "res.disc":"Les performances passées ne garantissent pas les résultats futurs.","res.upd":"Dernière mise à jour : [ajoutez la date]",
   "res.l1":"Compte Myfxbook vérifié","res.l2":"Page MQL5",
@@ -735,22 +725,22 @@ fr: {
   "pr.p1":"1 mois","pr.p2":"2 mois","pr.p3":"3 mois","pr.p6":"6 mois","pr.p12":"12 mois",
   "pr.s2":"Économisez 20 $","pr.s3":"Économisez 60 $","pr.s6":"Économisez 100 $","pr.s12":"Économisez 270 $",
   "pr.payh":"Moyens de paiement",
-  "pr.pay1":"PayPal","pr.pay2":"Visa via RodotPay","pr.pay3":"Crypto via Binance Pay — toutes monnaies & réseaux",
+  "pr.pay1":"PayPal","pr.pay2":"Visa via RodotPay","pr.pay3":"USDT via Binance Pay",
   "pr.n1":"Paiement sécurisé via prestataires externes","pr.n2":"Aucun frais caché","pr.n3":"Résiliation avant la date de renouvellement",
   "co.k":"Paiement","co.h":"Finalisez votre abonnement",
   "co.step1":"1 · Vos infos","co.step2":"2 · Paiement","co.step3":"3 · Activation",
   "co.selected":"Plan sélectionné","co.f1":"Nom complet *","co.f2":"E-mail *","co.f3":"ID du compte MT5 *",
   "co.note":"Votre clé de licence sera liée à ce compte MT5 — vérifiez le numéro.",
   "co.next":"Suivant → Payer avec Binance",
-  "co.p1h":"Commande reçue !",
-  "co.p1p":"Vos informations nous ont été envoyées. Finalisez maintenant le paiement — la clé de licence est livrée après confirmation.",
+  "co.p1h":"Presque terminé !",
+  "co.p1p":"Finalisez maintenant le paiement, puis envoyez-nous les détails de votre commande sur Discord — la clé de licence est livrée après confirmation.",
   "co.amount":"Montant à payer","co.paybtn":"Ouvrir Binance Pay et payer",
-  "co.afterpay":"Payé ? Envoyez-nous la confirmation — nous vérifions et envoyons votre clé.",
-  "co.waconfirm":"Envoyer la confirmation sur WhatsApp",
-  "co.step3t":"Étape 3 : après vérification, vous recevez votre clé de licence sur WhatsApp / e-mail.",
+  "co.afterpay":"Payé ? Copiez les détails de votre commande puis envoyez-les-nous sur Discord — nous vérifions et envoyons votre clé.",
+  "co.waconfirm":"Copier la commande et ouvrir Discord",
+  "co.step3t":"Étape 3 : après vérification, vous recevez votre clé de licence sur Discord / e-mail.",
   "set.k":"Service d'installation","set.h":"Vous voulez qu'on installe PGS pour vous ?",
-  "set.p":"Remplissez le formulaire — nous préparons une demande prête à envoyer sur WhatsApp ou par e-mail, et nous planifions votre session d'installation gratuite.",
-  "set.f1":"Nom complet *","set.f2":"WhatsApp ou e-mail *","set.f3":"Expérience en trading *",
+  "set.p":"Remplissez le formulaire — nous copions une demande prête à l'emploi et ouvrons Discord pour que vous nous la colliez et réserviez votre session d'installation gratuite.",
+  "set.f1":"Nom complet *","set.f2":"Pseudo Discord ou e-mail *","set.f3":"Expérience en trading *",
   "set.ph1":"Votre nom","set.ph2":"@username ou vous@mail.com",
   "set.exp1":"Moins d'un an","set.exp2":"1–3 ans","set.exp3":"3–5 ans","set.exp4":"Plus de 5 ans",
   "set.btn":"Envoyer ma demande",
@@ -759,16 +749,16 @@ fr: {
   "faq.q1":"PGS garantit-il des profits ?","faq.a1":"Non — et personne ne peut honnêtement le garantir. PGS suit des règles fixes avec un risque contrôlé, mais les pertes font partie du trading. C'est précisément pour cela que l'historique complet, pires mois compris, est public.",
   "faq.q2":"Touchez-vous à mon argent ?","faq.a2":"Jamais. Le bot tourne dans votre compte MetaTrader chez votre broker. Nous ne prenons aucun dépôt, ne détenons aucun fonds et n'avons aucun accès aux retraits.",
   "faq.q3":"Pourquoi louer plutôt qu'acheter à vie ?","faq.a3":"La location nous rend responsables : vos frais incluent mises à jour, surveillance et support. Si le système cesse de performer, vous ne renouvelez tout simplement pas.",
-  "faq.q4":"Fonctionne-t-il avec mon broker ?","faq.a4":"PGS fonctionne avec tout broker MT5 autorisant le hedging et les Expert Advisors. Envoyez-nous le nom de votre broker sur WhatsApp, nous confirmons avant paiement.",
+  "faq.q4":"Fonctionne-t-il avec mon broker ?","faq.a4":"PGS fonctionne avec tout broker MT5 autorisant le hedging et les Expert Advisors. Envoyez-nous le nom de votre broker sur Discord, nous confirmons avant paiement.",
   "faq.q5":"Dois-je laisser mon ordinateur allumé ?","faq.a5":"MetaTrader doit tourner 24h/24, 5j/7. La plupart des abonnés utilisent un VPS à bas prix (5–10 $/mois) — nous pouvons vous en recommander un et le configurer avec vous.",
   "faq.q6":"Utilise-t-il le martingale ?","faq.a6":"Non. Pas de martingale, pas de grille sans stop-loss. Chaque position s'ouvre avec un risque fixe de 1 % et un stop-loss défini.",
   "faq.q7":"Quel est le solde minimum ?","faq.a7":"Nous recommandons au moins 500 $. Des soldes plus faibles ne peuvent pas absorber les drawdowns normaux en toute sécurité.",
   "faq.q8":"Comment se passe l'installation ?","faq.a8":"Après paiement, vous recevez le fichier PGS et un guide pas à pas — ou réservez la session d'installation gratuite et nous l'installons avec vous à distance.",
   "faq.q9":"Puis-je résilier ?","faq.a9":"Oui. Résiliez à tout moment avant votre date de renouvellement — sans aucune question.",
   "ct.k":"Contact","ct.h":"Nous répondons en personne","ct.p":"Vraies questions, vraies réponses — généralement sous quelques heures.",
-  "ct.wa":"Discuter sur WhatsApp","ct.em":"Envoyer un e-mail","ct.rt":"Temps de réponse moyen : moins de 6 heures.",
+  "ct.wa":"Rejoindre notre Discord","ct.em":"Envoyer un e-mail","ct.rt":"Temps de réponse moyen : moins de 6 heures.",
   "ft.disc":"Avertissement sur les risques : le trading du forex, des métaux et des CFD comporte un niveau de risque élevé et peut entraîner la perte de la totalité de votre capital. Les performances passées ne préjugent pas des résultats futurs. Le contenu de ce site est fourni à titre informatif uniquement et ne constitue pas un conseil en investissement. Nous ne garantissons aucun profit.",
-  "ft.rights":"© 2025 Zorvextrader — Tous droits réservés.","ft.top":"Haut de page ↑"
+  "ft.rights":"© 2026 Zorvextrader — Tous droits réservés.","ft.top":"Haut de page ↑"
 }
 };
 
@@ -776,8 +766,9 @@ let LANG = 'en';
 
 function t(k){ return LANG === 'en' ? EN[k] : (I18N[LANG] ? I18N[LANG][k] : EN[k]); }
 
-function openWA(text){
-  window.open('https://wa.me/' + CONFIG.wa + '?text=' + encodeURIComponent(text), '_blank');
+function openDiscord(text){
+  if(text){ try{ navigator.clipboard.writeText(text).catch(function(){}); }catch(e){} }
+  window.open(CONFIG.discord, '_blank');
 }
 
 function renderResults(){
@@ -849,7 +840,7 @@ function planNames(){
 function planKeyIndex(p){ return {p1:0,p2:1,p3:2,p6:3,p12:4}[p] || 0; }
 
 function refreshCheckoutTexts(){
-  document.getElementById('coPlanName').textContent = CO.planName;
+  document.getElementById('coPlanName').textContent = planNames()[planKeyIndex(CO.plan)];
   document.getElementById('coPlanPrice').textContent = '$' + CO.price;
   document.getElementById('coPayAmount').textContent = '$' + CO.price + ' USDT';
 }
@@ -874,8 +865,7 @@ document.getElementById('checkoutForm').addEventListener('submit', function(e){
   const mail = document.getElementById('coEmail').value.trim();
   const mt5  = document.getElementById('coMt5').value.trim();
   const planLabel = CO.planName + ' ($' + CO.price + ')';
-  try{
-    fetch('https://formsubmit.co/ajax/' + CONFIG.email, {
+  if(CONFIG.email) try{ fetch('https://formsubmit.co/ajax/' + CONFIG.email, {
       method:'POST',
       headers:{'Content-Type':'application/json','Accept':'application/json'},
       body: JSON.stringify({
@@ -902,8 +892,7 @@ document.getElementById('checkoutForm').addEventListener('submit', function(e){
     : EN_EXTRA.waMsg)
     .replace('{name}',name).replace('{email}',mail).replace('{mt5}',mt5)
     .replace('{plan}',CO.planName).replace('{price}',CO.price);
-  document.getElementById('coWaBtn').href =
-    'https://wa.me/' + CONFIG.wa + '?text=' + encodeURIComponent(msg);
+  document.getElementById('coCopyBtn').onclick = function(){ openDiscord(msg); };
   document.getElementById('checkout').scrollIntoView({behavior:'smooth'});
 });
 
@@ -930,14 +919,13 @@ document.getElementById('setupForm').addEventListener('submit', e => {
     .replace('{name}', document.getElementById('fName').value)
     .replace('{contact}', document.getElementById('fContact').value)
     .replace('{exp}', expSel.options[expSel.selectedIndex].textContent);
-  openWA(msg);
+  openDiscord(msg);
 });
 
-document.getElementById('waLink').href = 'https://wa.me/' + CONFIG.wa;
-document.getElementById('waFloat').href = 'https://wa.me/' + CONFIG.wa;
-document.getElementById('emLink').href = 'mailto:' + CONFIG.email;
-document.getElementById('l1').href = CONFIG.myfxbook;
-document.getElementById('l2').href = CONFIG.mql5;
+document.getElementById('dcLink').href = CONFIG.discord;
+document.getElementById('dcFloat').href = CONFIG.discord;
+if(CONFIG.email) document.getElementById('emLink').href = 'mailto:' + CONFIG.email;
+else document.getElementById('emLink').style.display = 'none';
 
 let saved = 'en';
 try{ saved = localStorage.getItem('zx-lang') || 'en'; }catch(e){}
