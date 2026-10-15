@@ -865,7 +865,7 @@ document.getElementById('checkoutForm').addEventListener('submit', function(e){
   const mail = document.getElementById('coEmail').value.trim();
   const mt5  = document.getElementById('coMt5').value.trim();
   const planLabel = CO.planName + ' ($' + CO.price + ')';
-  if(CONFIG.email) try{ fetch('https://formsubmit.co/ajax/' + CONFIG.email, {
+  if(CONFIG.email) if(CONFIG.email) try{ fetch('https://formsubmit.co/ajax/' + CONFIG.email, {
       method:'POST',
       headers:{'Content-Type':'application/json','Accept':'application/json'},
       body: JSON.stringify({
